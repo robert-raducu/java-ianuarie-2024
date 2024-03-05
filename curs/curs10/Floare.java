@@ -21,4 +21,16 @@ public class Floare {
     void metodaCareNuReturneazaNimic(){
         System.out.println("Metoda nu apeleaza nimic :(");
     }
+
+    /** Getter && Setter **/
+    int getNumarPetale(){
+        return nrPetale;
+    }
+
+    void setNumarPetale(int nrPetaleParametru){
+        this.nrPetale =  nrPetaleParametru;
+    }
+
+    /** **/
+
 }
